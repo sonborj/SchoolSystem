@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(dotnet new:*)",
+      "Bash(dotnet sln add:*)",
+      "Bash(dotnet add:*)",
+      "Bash(del \"F:\\\\Source\\\\Business\\\\SchoolSystem\\\\src\\\\SchoolSystem.Domain\\\\Class1.cs\")",
+      "Bash(del \"F:\\\\Source\\\\Business\\\\SchoolSystem\\\\src\\\\SchoolSystem.Application\\\\Class1.cs\")",
+      "Bash(del \"F:\\\\Source\\\\Business\\\\SchoolSystem\\\\src\\\\SchoolSystem.Infrastructure\\\\Class1.cs\")",
+      "Bash(del \"F:\\\\Source\\\\Business\\\\SchoolSystem\\\\tests\\\\SchoolSystem.Application.Tests\\\\UnitTest1.cs\")",
+      "Bash(del \"F:\\\\Source\\\\Business\\\\SchoolSystem\\\\tests\\\\SchoolSystem.Infrastructure.Tests\\\\UnitTest1.cs\")",
+      "Bash(dotnet ef migrations add:*)",
+      "Bash(dotnet tool install:*)",
+      "Bash(dotnet ef database update:*)",
+      "Bash(dotnet run:*)"
+    ]
+  }
+}
